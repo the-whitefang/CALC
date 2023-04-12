@@ -30,6 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
+            android:backgroundTint="@android:color/holo_orange_light"
             android:text="C"
             android:textSize="30sp"
             app:cornerRadius="70dp" />
@@ -48,6 +49,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
+            android:backgroundTint="@android:color/holo_orange_light"
             android:text="Del"
             android:textSize="30sp"
             app:cornerRadius="70dp" />
@@ -241,17 +243,18 @@
             android:layout_marginLeft="10dp"
             app:cornerRadius="70dp"
             />
+
         <Button
             android:id="@+id/equals"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@android:color/holo_orange_light"
             android:text="="
             android:textSize="30sp"
             android:textStyle="bold"
-            android:layout_marginLeft="10dp"
-            app:cornerRadius="70dp"
-            android:layout_marginRight="10dp"
-            />
+            app:cornerRadius="70dp" />
     </LinearLayout>
 
 
